@@ -1,0 +1,15 @@
+@import "responsive";
+@import "vars";
+@import "reset";
+@import "header";
+@import "main";
+
+
+body {
+  background-color: #000;
+}
+.container {
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+}
