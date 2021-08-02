@@ -1,11 +1,6 @@
+const toggleButton = document.getElementsByClassName('header__btn')[0]
+const navbarLinks = document.getElementsByClassName('nav')[0]
 
-const burger = document.querySelector(".burger");
-
-burger.addEventListener("click", () => {
-    if (!burger.classList.contains("active")) {
-        burger.classList.add("active");
-    }
-    else {
-        burger.classList.remove('active');
-    }
-});
+toggleButton.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active')
+})

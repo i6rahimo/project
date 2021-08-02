@@ -1,34 +1,29 @@
 .main {
-  padding: 0 40px;
-  &__wrapper{
-    position: absolute;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: -1;
-  }
-  &__l {
-    img {
-      height: auto;
-      width: 100%;
-      
-      object-fit: cover;
-      max-width: 1108px;
+ 
 
-      z-index: -1233333;
-      top: 0;
-      left: 0;
-      
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  
+  &__l {
+    background-size: contain;
+    background-position: center;
+
+    img {
+      transform: translateY(-70px);
+      width: 100%;
+      max-height: 100%;
+      max-width: 774px;
+      z-index: -1212;
     }
   }
   &__r {
+    margin-top: 123px;
     width: 377px;
     height: 320px;
-    padding-top: 0;
-    right: 0;
-    margin-right: 40px;
-
+    padding: 0 40px;
     p {
       line-height: 1.8;
       opacity: .8;
