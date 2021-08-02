@@ -6,7 +6,6 @@
     }
     
     .nav {
-  
       position: absolute;
       transform: translateY(-460px);
       right: 0;
@@ -41,3 +40,9 @@
       transform: translateY(261px);
     }
   }
+@media (max-width: 360px ) {
+  .nav__list {
+    top: 86px;
+    position: relative;
+  }
+}

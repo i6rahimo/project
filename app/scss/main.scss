@@ -5,6 +5,7 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  justify-content: center;
 
   
   &__l {
@@ -20,10 +21,11 @@
     }
   }
   &__r {
-    margin-top: 123px;
+    margin-bottom: 40px;
+    margin-top: -60px;
     width: 377px;
     height: 320px;
-    padding: 0 40px;
+    padding: 0 40px  40px 40px;
     p {
       line-height: 1.8;
       opacity: .8;
